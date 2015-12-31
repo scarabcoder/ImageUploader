@@ -13,7 +13,10 @@ import os
 #Import the webbrowser library for opening the direct URL to the uploaded image.
 import webbrowser
 #Login to the Cloudinary API
-cloudinary.config(cloud_name = "scarabcoder", api_key = "345834587964339", api_secret = "dIR0j-1c5LA1-tYLLqi3Zv_uhP8")
+cloud_name = "Cloud Name Here"
+api_key = "API Key here"
+api_secret = "API Secret Here"
+cloudinary.config(cloud_name = cloud_name, api_key = api_key, api_secret = api_secret)
 #Every 1 second, check for images in the directly and loop through each one.
 while True:
     time.sleep(1)
